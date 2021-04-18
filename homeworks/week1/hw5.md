@@ -21,15 +21,19 @@
 4. database 回傳了搜尋結果到 server。
 5. server 將搜尋結果(HTML檔)回傳給瀏覽器。(response)
 6. 瀏覽器將資料呈現給老王看。
+7. 
 ![](https://static.coderbridge.com/img/gastbyylion/005e157033a34f6fae14b4e8044d6786.jpg)
 
 如果我們在這張圖中間畫上一條線的話，**左側**負責處理跟用戶互動、拿取資料、回傳資料給用戶的是前段；而**右側**負責接收、儲存、處理資料的則是後端。
+
 ![](https://static.coderbridge.com/img/gastbyylion/0549252d31874a7ca7557cdf9836daa5.jpg)
 
 如果我們在簡化一下這個流程的話大概是長這樣:
+
 ![](https://static.coderbridge.com/img/gastbyylion/147f408b5c8347a8b8ee32fd74b090d2.jpg)
 
 咦?等等，你有沒有發現這張圖長的就像老王去咖啡廳的點餐流程圖呢?
+
 ![](https://static.coderbridge.com/img/gastbyylion/0e7267dd6e794dd49bcdcb956e63947d.jpg)
 
 是的，前端的工作就像櫃台，負責跟用戶互動取得資訊，並將後場/後端處理好的東西交給客人/用戶；而後端的工作就像廚房，負責接收客人/用戶的要求，儲存、分析並照著要求回穿相對應的資料/咖啡。
